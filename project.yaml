@@ -10,6 +10,7 @@ basic:
         - 1440
         - 1870
     pages:
+        - /
         - /our-services-test
     monitoring:
         days: {  }
