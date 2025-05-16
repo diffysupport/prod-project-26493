@@ -5,7 +5,9 @@ basic:
         staging: ''
         development: ''
     breakpoints:
+        - 480
         - 1024
+        - 1440
         - 1870
     pages:
         - /our-services-test
