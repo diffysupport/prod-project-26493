@@ -9,6 +9,7 @@ basic:
         - 1024
         - 1440
         - 1870
+        - 2000
     pages:
         - /
         - /our-services-test
