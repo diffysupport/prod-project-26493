@@ -1,0 +1,40 @@
+basic:
+    name: 'Figma Diffy Compare'
+    environments:
+        production: 'https://diffy.website'
+        staging: ''
+        development: ''
+    breakpoints:
+        - 480
+        - 768
+        - 1024
+        - 1200
+        - 1400
+    pages:
+        - /
+        - /our-services-test
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 20
+    scroll: true
+    headers:
+        - { header: user-agent, value: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: '20'
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
