@@ -1,7 +1,7 @@
 basic:
     name: 'Figma Diffy Compare'
     environments:
-        production: 'https://diffy.website'
+        production: 'https://www.cleardigital.com/our-services-test'
         staging: ''
         development: ''
     breakpoints:
@@ -13,7 +13,6 @@ basic:
         - 1870
     pages:
         - /
-        - /our-services-test
     monitoring:
         days: {  }
         type: ''
